@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- ==================================================================== 1 ========================================================== -->
+
+    <!-- <script>
+        function test() {
+            let a = parseInt(prompt("Enter value = "));
+
+            if (a > 0) {
+                return "positive";
+            }
+            else {
+                return "negative";
+            }
+        }
+        let b = test();
+
+        console.log(b);
+    </script> -->
+
+
+<!-- ==================================================================== 2 ========================================================== -->
+
+    <!-- <script>
+
+        function test(b) {
+
+            if (b > 0) {
+                console.log("number is positive");
+            }
+            else {
+                console.log("number is negative");
+            }
+        }
+
+        let a = parseInt(prompt("Enter value = "));
+
+        test(a);
+
+ </script> -->
+
+   <!-- ==================================================================== 3 ========================================================== -->
+
+    <!-- <script>
+        function test() {
+            let a = parseInt(prompt("Enter value oof A = "));
+            let b = parseInt(prompt("Enter value oof B = "));
+            let c = parseInt(prompt("Enter value oof C = "));
+            let d = parseInt(prompt("Enter value oof D = "));
+
+            if (a > b) {
+                if (a > c) {
+                    if (a > d) {
+                        return "A is largest num"
+                    }
+                    else {
+                        return "C is largest num"
+                    }
+                }
+                else {
+                    if (c > d) {
+                        return "C is largest num"
+                    }
+                    else {
+                        return "D is largest num"
+                    }
+                }
+            }
+            else {
+                if (b > c) {
+                    if (b > d) {
+                        return "B is largest num"
+                    }
+                    else {
+                        return "D is largest num"
+                    }
+                }
+                else {
+                    if (c > d) {
+                        return "C is largest num"
+                    }
+                    else {
+                        return "D is largest num"
+                    }
+                }
+            }
+        }
+
+        let data = test();
+
+        console.log(data);
+    </script> -->
+
+   <!-- ==================================================================== 4 ========================================================== -->
+
+    <!-- 
+    <script>
+        function test(w, x, y, z) {
+            if (w > x && w > y && w > z) {
+                console.log("A is greatest");
+            }
+            else if (x > w && x > y && x > z) {
+                console.log("B is greatest");
+            }
+            else if (y > w && y > x && y > z) {
+                console.log("C is greatest");
+            }
+            else if (z > w && z > x && z > y) {
+                console.log("D is greatest");
+            }
+        }
+
+        let a = parseInt(prompt("Enter value of A="));
+        let b = parseInt(prompt("Enter value of B="));
+        let c = parseInt(prompt("Enter value of C="));
+        let d = parseInt(prompt("Enter value of D="));
+
+        test(a, b, c, d);
+    </script> -->
+
+
+
+
+   <!-- ==================================================================== 5 ========================================================== -->
+
+
+
+
+    <!-- <script>
+        function test(){
+            let a = parseInt(prompt("Enter value of A"));
+            let b = parseInt(prompt("Enter value of B"));
+
+            // addition
+            console.log("addition of A and B = "+(a+b));
+            //subtraction
+            console.log("Substraction of A and B = "+(a-b));
+            //multiplication
+            console.log("Multiplication of A and B = "+(a*b));
+            //division
+            console.log("division of A and b = "+(a/b));
+
+        }
+
+        let x = test();
+    </script> -->
+
+
+
+
+    <!-- ==================================================================== 6 ========================================================== -->
+
+
+    <!-- <script>
+         function test() {
+             let a = parseInt(prompt("Enter value of A"));
+             let b = parseInt(prompt("Enter value of B"))
+            //  1st meth
+            //  a=a+b;
+            //  b=a-b;
+            //  a=a-b
+            //  2nd meth
+             a = a * b / b;
+             b = b * a / a
+             console.log("A = " + a);
+             console.log("B = " + b);
+    </script>  -->
+
+    <!-- ==================================================================== 7 ========================================================== -->
+
+
+     <!-- <script>
+         function test(a,b,c){          
+             if(a>b)
+             {
+                 if(a>c)
+                 {
+                     console.log("A is greatest");
+                 }
+                 else{
+                     console.log("C is greatest");
+                 }              
+             }
+             else
+             {
+                 if(b>c){
+                     console.log("B is greatest");
+                 }
+                     else{
+                         console.log("C is greatest");
+                         
+                     }
+                     let a =parseInt(prompt("Enter value of A"));
+                     let b =parseInt(prompt("Enter value of B"));
+                     let c =parseInt(prompt("Enter value of C"))
+                     let x = test(a,b,c);                
+     </script>  -->
+
+//     <!-- ==================================================================== 8 ========================================================== -->
+<!-- 
+     <script>
+          const calc = (a, b) => {
+              let choice = prompt("enter your choice" + "+ , - , * , / , % ");
+              switch (choice) {
+                  case "+":
+                      return a + b
+                      break;
+                  case "-":
+                      return a - b
+                      break;
+                  case "*":
+                      return a * b
+                      break;
+                  case "/":
+                      return a / b
+                      break;
+                  case "%":
+                      return a % b
+                      break;
+                  default:
+                      return "this is invalid keyword "
+                      break;
+              }
+          }
+          let a = parseInt(prompt("enter the a value "));
+          let b = parseInt(prompt("enter the b value "));
+          const x = calc(a, b);
+          console.log(x); 
+          </script> -->
+    
+    <!-- <script>
+     const calc = (a) => {
+         let c = prompt("enter your choice" + "+ , - , * , / , % ");
+         switch (c){
+             case "+":
+                 let b = parseInt(prompt("enter the b value "))
+                 return a + b
+                 break;
+             case "-":
+                 let b1 = parseInt(prompt("enter the b value "))
+                 return a - b1
+                 break;
+             case "*":
+                 let b2 = parseInt(prompt("enter the b value "))
+                 return a * b2
+                 break;
+             case "/":
+                 let b3 = parseInt(prompt("enter the b value "))
+                 return a / b3
+                 break;
+             case "%":
+                 let b4 = parseInt(prompt("enter the b value "))
+                 return a % b4
+                 break;
+             default:
+                 return "this is invalid keyword "
+                 break;
+         }
+     }
+     let a = parseInt(prompt("enter the a value "));
+     const x = calc(a);
+     console.log(x);
+ 
+   </script> -->
+
+
+<!-- ==================================================================== 9 ========================================================== -->
+
+
+ <!-- <script>
+ function data(x,y,z,triangle) {
+     if (triangle == 180) {
+         document.write("<h2>Triangle is valid</h2>");
+     }
+     else {
+         document.write("<h2>Triangle is not valid</h2>");
+     }
+ }
+ var x = parseFloat(prompt("Enter length of triangle side 1 :"));
+ var y = parseFloat(prompt("Enter length of triangle side 2 :"));
+ var z = parseFloat(prompt("Enter length of triangle side 3 :"));
+ var triangle = (x + y + z);
+ data(x,y,z,triangle); 
+ </script> -->
+
+<!-- ==================================================================== 10========================================================== -->
+
+ <script>
+     function voting (){
+         let age = parseInt(prompt("enter your age :"));
+         if (age >= 18) {
+             console.log("ligle for voting ");
+         }
+         else{
+             console.log("elligle for voting ");
+         }
+     }
+     voting();
+ </script>
+
+
+
+
+ </body
+ </html>
