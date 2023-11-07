@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <button onclick="jen()"> switch </button><br>     
+    <script>
+        var product=[
+            {
+                id:1,
+                title:"phone",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:2,
+                title:"oppo",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:3,
+                title:"vivo",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:4,
+                title:"book",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:5,
+                title:"iqoo",
+                discription: "lorem1",
+                price:100,
+                available : false,
+            },
+            {
+                id:6,
+                title:"pen",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:7,
+                title:"bag",
+                discription: "lorem1",
+                price:100,
+                available : false,
+            },
+            {
+                id:8,
+                title:"mouse",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:9,
+                title:"bottle",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:10,
+                title:"table",
+                discription: "lorem1",
+                price:100,
+                available : false,
+            },
+            {
+                id:11,
+                title:"charger",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:12,
+                title:"cover",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:13,
+                title:"glass",
+                discription: "lorem1",
+                price:100,
+                available : false,
+            },
+            {
+                id:14,
+                title:"chair",
+                discription: "lorem1",
+                price:100,
+                available : true,
+            },
+            {
+                id:15,
+                title:"light",
+                discription: "lorem1",
+                price:100,
+                available : false,
+            }
+            
+        ];
+
+let unavail = product.filter(product => product.available==false);
+        unavail.map(product => {
+            document.write(product.title + "<br>")
+        })   
+
+    function jen(){
+        let avail = product.filter(product => product.available==true);
+        avail.map(product => {
+            document.write(product.title + "<br>")
+        })
+    };
+
+        
+        
+        
+
+
+
+
+    </script>
+</body>
+</html>
